@@ -1,0 +1,24 @@
+*{
+
+}
+#tat{
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-variant: small-caps;
+    height: 50px;
+    width: 1000px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    margin-top: auto;
+}
+.dat{
+    text-align: center;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 10px 100px;
+    /* 10px top and bottom, 100px on the side */
+}

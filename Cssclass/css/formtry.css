@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgb(220, 220, 236);
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 450px;
+    padding: 20px 25px;
+    
+    
+
+    
+    
+}
+.container .user-details{
+    display: flex;
+    justify-content: space-between;
+}

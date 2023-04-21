@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.item-left{
+    background-color: black;
+    height: 100px;
+    color: white;
+    width: 400px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.item-right{
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+    padding-top: 50px;
+    color: rgb(25, 25, 233);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 39px;
+}

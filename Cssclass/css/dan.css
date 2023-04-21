@@ -1,0 +1,28 @@
+{
+
+}
+.top_menu{
+    background-color:blanchedalmond;
+    text-align: center;
+}
+#hero{
+ background-color: aqua;
+ font-style: italic;
+ font-size: larger;
+ 
+}
+.setup{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.tatu{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    font-style: oblique;
+    font-size: larger;
+}
+.tub h2{
+    background-color: aqua;
+    color: brown;
+}

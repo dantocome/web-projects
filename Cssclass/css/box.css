@@ -1,0 +1,28 @@
+*{
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: whitesmoke;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+.flex-container .box{
+    background-color: orangered;
+    padding: 50px;
+    border-top-style: ridge;
+    border-top-color: peachpuff;
+    border-top-width: 10px;
+    border-bottom: peachpuff;
+    border-bottom-width: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}

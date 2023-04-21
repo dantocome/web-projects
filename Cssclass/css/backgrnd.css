@@ -1,0 +1,91 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmp6fGifb4weMHbKqS8PThz5hft518DslMxw&usqp=CAU);
+    background-repeat: repeat-x
+}
+h2{
+  text-align: center;
+  color: orange;
+  font-size: 70px;
+  padding-top: 40px;
+  
+}
+.menu{
+  display: flex;
+  float: right;
+  padding-right: 50px;
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 25px;
+  
+  
+}
+
+.menu li a{
+  color: red;
+  text-decoration: none;
+  padding-left: 15px;
+
+}
+.menu li{
+  width: 80px;
+  font-size: 20px ;
+}
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(228, 161, 37);
+  border-radius: 30px;
+
+}
+.container{
+  margin-top:50px;
+  gap: 40px;
+  font-size: 17px;
+  height: 200px;
+  padding-top: 20px;
+}
+.sax{
+  padding-left: 20px;
+}
+.favy{
+  transition: 2s ease-in-out;
+}
+.favy:hover{
+  background-color: palevioletred;
+}
+.hachi{
+  padding-right:  10px; 
+  transition: 2s ease-in-out;
+  padding-left: 30px
+
+}
+p{
+  color:black;
+  border-right: solid;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.hachi:hover{
+  background-color: palevioletred;
+  border-radius: 50px;
+  color: whitesmoke;
+
+}
+.sax:hover{
+  background-color: palevioletred;
+  border-radius:50px ;color: whitesmoke;
+}
+.sax{
+  transition: 2s ease-in-out;
+}
+
+h4{
+  padding-left: 100px;
+}
