@@ -116,6 +116,8 @@ body{
 }
 .vl{
     border-left: 1px solid grey;
+    height: 14px;
+    margin-top: 12px;
 }
 .number :hover{
    color: black;
