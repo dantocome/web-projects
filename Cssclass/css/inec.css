@@ -90,6 +90,7 @@ body{
     padding-left: 420px;
     padding-top: 20px;
     letter-spacing: 5px;
+    font-size: 25px;
 }
 .fold{
     text-align: center;
@@ -115,5 +116,8 @@ body{
 }
 .vl{
     border-left: 1px solid grey;
+}
+.number :hover{
+   color: black;
 }
 
