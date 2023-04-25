@@ -16,7 +16,7 @@
             <li><a href="">Bank Details</a></li>
            </div>
           <div class="sub-container">
-            <form >
+            <form>
               <header>Enter Driver's Details</header>
               <div class=" users-details">
                 <div class="form-control">
@@ -36,28 +36,46 @@
                   <input type="phone" placeholder="Phone">
                 </div>
                 <div class="form-control">
-                  <label for="Gender"></label>
-                  <input type="gender" placeholder="Gender">
+                  <select name="" id="">
+                    <option value="Default">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    </select>
                 </div>
                 <div class="form-control">
-                  <label for="status"></label>
-                  <input type="status" placeholder="Status">
+                  <select name="status" id="st">
+                    <option value="default">Status</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                  </select>
                 </div>
 
               </div>
             </form>
           </div>
+
           <div class="sub-container">
           <form action>
             <header>Location Details</header>
             <div class=" users-details">
               <div class="form-control">
-                <label for="country"></label>
-                <input type="first name" placeholder="Country">
-              </div>
+                <select name="" id="">
+                  <option value="default">Country</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="togo">Togo</option>
+                  <option value="congo">Congo</option>
+                  <option value="france">France</option>
+                  </select>
+                  </div>
               <div class="form-control">
-                <label for="State"></label>
-                <input type="last name" placeholder="State">
+                <select name="" id="">
+                  <option value="default">State</option>
+                  <option value="Rivers">Rivers</option>
+                  <option value="abia">Abia State</option>
+                  <option value="anambra">Anambra State</option>
+                  </select>
+                  </div>
+              
               </div>
               <div class="form-control">
                 <label for="city"></label>
@@ -77,8 +95,11 @@
                 </select>
               </div>
               <div class="form-control">
-                <label for="status"></label>
-                <input type="status" placeholder="Status">
+                <select name="" id="">
+                <option value="default">Status</option>
+                <option value="single">Single</option>
+                <option value="Married">Married</option>
+                </select>
               </div>
               <div class="form-control">
                 <label for="home address"></label>
@@ -89,5 +110,6 @@
           </form>
     </div>
     <input type="button" value="Cancel">
+    </div>
 </body>
 </html>
