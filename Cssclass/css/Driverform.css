@@ -92,7 +92,15 @@ input,label{
     padding: 12px;
 }
 input[type="home address"i] {
-    width: 535px;
+    width: 300px;
+}
+select[name="City" i] {
+    margin-right: 8px;
+}
+input[type="postalcode" i] {
+    margin-left: 9px;
+
+
 }
 input[type="button" i] {
     width: 100px;
