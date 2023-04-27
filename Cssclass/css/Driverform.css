@@ -62,12 +62,10 @@ header{
     width: 650px; 
     background-color: rgb(250, 250, 250); 
     height: 200px;
+    padding-bottom: 200px;
     
 }
 
-form{
-    margin: auto;
-}
 
 .users-details{
     display: flex;
