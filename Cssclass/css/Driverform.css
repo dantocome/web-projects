@@ -32,6 +32,9 @@ body{
     height: 50px;
     width: 650px;
     border-radius: 5px;
+    border: 1px solid;
+    margin-top: 20px;
+    
        
 }
 
@@ -53,17 +56,29 @@ body{
 }
 header{
     margin-left: 60px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 30px;
+    padding-top: 2px;
 }
 .sub-container{
     margin: auto;
-    width: 650px; 
+    width: 630px; 
     background-color: rgb(250, 250, 250); 
     height: 200px;
     padding-bottom: 200px;
+    border:  solid green;
+    margin-top: 40px;
     
+}
+.sub{
+    margin: auto;
+    width: 630px;
+    background-color: rgb(250, 250, 250);
+    height: 200px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -74,11 +89,12 @@ header{
     margin: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 1px;
+    padding-top: 2px;
     gap: 15px; 
     height: 100px;
-    line-height: 20px;  
+    line-height: 10px;  
 }
+
 
 input,label{
     width: 260px;
@@ -91,15 +107,14 @@ input,label{
 ::placeholder{
     padding: 12px;
 }
-input[type="home address"i] {
-    width: 300px;
-}
 select[name="City" i] {
-    margin-right: 8px;
+    margin-right: 7px;
 }
 input[type="postalcode" i] {
     margin-left: 9px;
-
+}
+label, input[type="Home address" i] {
+    width: 540px;
 
 }
 input[type="button" i] {
