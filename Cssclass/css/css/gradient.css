@@ -2,7 +2,7 @@
 
 }
 .gradient{
-    background-image: linear-gradient(to right, rgb(253, 160, 160) , rgb(232, 139, 232));
+    background-image: linear-gradient(to right, rgb(255, 166, 166) , violet);
     width:170px;
     height: 30px;
     padding-left: 5px;
