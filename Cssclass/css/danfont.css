@@ -1,0 +1,53 @@
+*{
+    box-sizing:border-box ;
+
+}
+.container{
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+.left{
+    font-size: 100px;
+    padding-top: 40px;
+
+}
+.right{
+    color: white;
+    padding-top: 20px;
+    font-family: "Righteous";
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+.rap{
+    background-image: linear-gradient(to bottom, red, blue);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px; 
+    text-align: center;
+    border-top-right-radius: 50px;  
+}
+.rap2{
+    background-image: linear-gradient(to bottom, orange, pink);
+    height:300px ;
+    width: 400px;
+    border-radius: 20px;
+    
+}
+.push{
+    padding-top: 15px;
+    line-height: 30px;
+    font-family: "Righteous";
+    font-size: 20px;
+    color: navy;
+    padding-left: 30px;
+}
+.senior{
+ margin-top: 50px;
+ padding-left: 50px;
+ font-size: 100px;
+ padding-left: 130px;
+}
